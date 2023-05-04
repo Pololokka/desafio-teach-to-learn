@@ -1,6 +1,10 @@
 import "./App.css";
+import fundoMain from "./assets/img/fundo-main.jpg";
+
+import { textMain } from "./Data/text";
 
 import Link from "./Components/Class/Link/Index";
+import TextSection from "./Components/Class/TextSection/Index";
 
 function App() {
   return (
@@ -22,9 +26,11 @@ function App() {
         </nav>
       </header>
       <main className="main__container">
+        <img src={fundoMain} className="test" />
         <h1 className="title">
           NA ESCURIDÃO DO FUTURO DISTANTE EXISTE APENAS GUERRA.
         </h1>
+        <TextSection sectionTitle="Título" sectionText={textMain} />
       </main>
     </>
   );
