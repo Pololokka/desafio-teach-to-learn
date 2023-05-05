@@ -6,3 +6,7 @@
   align-items: center;
   gap: 1em;
 }
+
+.section__container > p {
+  padding: 0 2em;
+}

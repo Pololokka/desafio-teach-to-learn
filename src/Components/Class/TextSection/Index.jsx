@@ -7,7 +7,7 @@ class TextSection extends React.Component {
   }
   render() {
     return (
-      <section className="section__container">
+      <section ref={this.props.scrollRef} className="section__container">
         <h2 className="subtitle">{this.props.sectionTitle}</h2>
         {this.props.sectionText?.map((element, index) => {
           return (
