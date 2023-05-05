@@ -19,14 +19,15 @@ function App() {
       <header>
         <nav>
           <ul className="nav-bar">
-            <li>
+            <p className="text">Seções: </p>
+            <li className="border-right">
               <Input
                 value="Guia Introdutório"
                 func={handleScroll}
                 scrollRef={guide}
               />
             </li>
-            <li>
+            <li className="border-right">
               <Input
                 value="Como Pintar"
                 func={handleScroll}

@@ -208,10 +208,17 @@ html {
 .text {
   font-family: var(--font-text);
   font-size: var(--font-size-small);
+  transition: 200ms;
 }
 
 .text-hover:hover {
   color: var(--font-color-hover);
+  transform: scale(1.1);
+}
+
+.border-right {
+  padding-right: 1em;
+  border-right: 1px solid var(--font-color);
 }
 
 .nav-bar {
