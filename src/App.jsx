@@ -1,26 +1,18 @@
 import "./App.css";
 import fundoMain from "./assets/img/fundo-main.jpg";
 
+import { handleScroll } from "./Func/elderScroll";
 import { textMain, textGuide } from "./Data/text";
 import { useRef } from "react";
 
 import Link from "./Components/Class/Link/Index";
 import TextSection from "./Components/Class/TextSection/Index";
+import Input from "./Components/Class/Input/Index";
 
 function App() {
   const guide = useRef(null);
   const paint = useRef(null);
   const play = useRef(null);
-  const test = useRef();
-
-  const handleScroll = ({ elementRef = event.target.id }) => {
-    //const elementRef = event.target.id;
-    console.log(elementRef);
-    window.scrollTo({
-      top: elementRef,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <>
@@ -28,27 +20,21 @@ function App() {
         <nav>
           <ul className="nav-bar">
             <li>
-              <input
-                type="button"
+              <Input
                 value="Guia Introdutório"
-                className="text text-hover btn__nav"
-                id="guide"
-                onClick={handleScroll}
+                func={handleScroll}
+                scrollRef={guide}
               />
             </li>
             <li>
-              <input
-                type="button"
+              <Input
                 value="Como Pintar"
-                className="text text-hover btn__nav"
+                func={handleScroll}
+                scrollRef={paint}
               />
             </li>
             <li>
-              <input
-                type="button"
-                value="Como Jogar"
-                className="text text-hover btn__nav"
-              />
+              <Input value="Como Jogar" func={handleScroll} scrollRef={play} />
             </li>
           </ul>
         </nav>
@@ -89,9 +75,6 @@ function App() {
           link="https://www.youtube.com/watch?v=7z5f0d1VO1Q"
           linkName="Como Jogar"
         />
-        <div ref={test}>
-          <p>teste</p>
-        </div>
       </main>
     </>
   );
