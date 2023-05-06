@@ -10,4 +10,19 @@ export const textMain = [
   "E você? Qual desses exércitos vai comandar para a vitória absoluta contra seus inimigos?",
 ];
 
-export const textGuide = ["teste"];
+export const textGuide = [
+  "Como dito acima, Warhammer 40k possui diversas facções(e diversas outras facções dentro dessas facções!), e cabe a você escolher como deseja seguir com o seu exército.",
+  "Nesta seção você pode aprender mais sobre o mundo de Warhammer 40k, suas facções, o hobby, e diversas outras informações.",
+  "Clique no link abaixo para ter mais informações!",
+];
+
+export const textPaint = [
+  "As miniaturas de Warhammer vem desmontadas, e sem pintura, então, mãos a obra!",
+  "Nessa seção você vai conseguir encontrar alguns guias sobre somo pintar sua primeira miniatura, e sempre se lembre: 'Duas finas camadas de tinta'!",
+  "Clique no link abaixo para ter mais informações!",
+];
+
+export const textPlay = [
+  "Nesta seção você pode aprender mais sobre o jogo de Warhammer 40k, seguindo um curto e rápido guia básico de jogo.",
+  "Clique no link abaixo para ter mais informações!",
+];

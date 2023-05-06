@@ -2,7 +2,7 @@ import "./App.css";
 import fundoMain from "./assets/img/fundo-main.jpg";
 
 import { handleScroll } from "./Func/elderScroll";
-import { textMain, textGuide } from "./Data/text";
+import { textMain, textGuide, textPaint, textPlay } from "./Data/text";
 import { useRef } from "react";
 
 import Link from "./Components/Class/Link/Index";
@@ -60,7 +60,7 @@ function App() {
         <TextSection
           scrollRef={paint}
           sectionTitle="Como Pintar"
-          sectionText={textGuide}
+          sectionText={textPaint}
         />
         <Link
           link="https://www.youtube.com/watch?v=4KNkOPTa_po"
@@ -70,7 +70,7 @@ function App() {
         <TextSection
           scrollRef={play}
           sectionTitle="Como Jogar"
-          sectionText={textGuide}
+          sectionText={textPlay}
         />
         <Link
           link="https://www.youtube.com/watch?v=7z5f0d1VO1Q"
