@@ -27,6 +27,13 @@ export const textPlay = [
   "Clique no link abaixo para ter mais informações!",
 ];
 
+export const textError = [
+  "O conteúdo que você está tentando acesar está permanentemente indisponível, por apresentar tópicos relacionados a: XENOS.",
+  "A Sagrada Ordo Herecticus entrará em contato com você em breve. Agradecemos sua compreensão e não resistência, antigo cidadão!",
+  "Caso você não tenha acessado este conteúdo, mas tenha visto esta página, favor informar ao servitor mais próximo qual o cidadão que estava utilizando este terminal.",
+  "Enquanto isso, herege ou não, fique a vontade para acessar as demais dependências desse Sagrado Site, e que, caso tenha sido você o culpado pelo acesso indevido, que o Imperador te ouça, cidadão!",
+];
+
 export const textPageGuide = [
   "No vídeo acima, Luetin09(um grande youtuber da comunidade de Warhammer 40k), dá uma breve descrição do hobby, e então nos conta mais sobre algumas facções específicas do universo de 40k",
   "As facções apresentadas no vídeo são resumidas, uma vez que Luetin somente nos conta sobre a idéia geral de uma facção, porém, cada facção tem diversas divisões internas, com suas próprias caracterísitcas, dogmas, cores, preferências, e etc.",

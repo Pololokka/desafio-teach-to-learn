@@ -1,6 +1,7 @@
 import React from "react";
 import fundoGuide from "../../assets/img/fundo-guide.jpg";
 
+import { Link } from "react-router-dom";
 import { textPageGuide } from "../../Data/text";
 import Input from "../../Components/Class/Input/Index";
 import TextSection from "../../Components/Class/TextSection/Index";
@@ -17,7 +18,9 @@ class Guide extends React.Component {
               <p className="text">Páginas: </p>
 
               <li className="border-right">
-                <Input value="Home" />
+                <Link className="text text-hover link" to="/">
+                  Home
+                </Link>
               </li>
 
               <li className="border-right">

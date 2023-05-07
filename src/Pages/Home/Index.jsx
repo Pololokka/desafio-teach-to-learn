@@ -4,7 +4,7 @@ import { handleScroll } from "../../Func/elderScroll";
 import { textMain, textGuide, textPaint, textPlay } from "../../Data/text";
 import { useRef } from "react";
 
-import Link from "../../Components/Class/Link/Index";
+import { Link } from "react-router-dom";
 import TextSection from "../../Components/Class/TextSection/Index";
 import Input from "../../Components/Class/Input/Index";
 
@@ -57,30 +57,29 @@ function Home() {
           sectionTitle="Guia Introdutório"
           sectionText={textGuide}
         />
-        <Link
-          link="https://www.youtube.com/watch?v=M6M9-oFEKpk"
-          linkName="Introdução ao Hobby"
-        />
+        <Link className="text text-hover link" to="/guia">
+          Introdução ao Hobby
+        </Link>
 
         <TextSection
           scrollRef={paint}
           sectionTitle="Como Pintar"
           sectionText={textPaint}
         />
-        <Link
+        {/* <Link
           link="https://www.youtube.com/watch?v=4KNkOPTa_po"
           linkName="Pintando suas Minis"
-        />
+        /> */}
 
         <TextSection
           scrollRef={play}
           sectionTitle="Como Jogar"
           sectionText={textPlay}
         />
-        <Link
+        {/* <Link
           link="https://www.youtube.com/watch?v=7z5f0d1VO1Q"
           linkName="Jogando o Jogo"
-        />
+        /> */}
       </main>
     </>
   );
