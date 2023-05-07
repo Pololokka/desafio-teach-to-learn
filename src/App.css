@@ -236,6 +236,10 @@ html {
   background-color: transparent;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 .main__container {
   height: 100%;
   width: 100%;

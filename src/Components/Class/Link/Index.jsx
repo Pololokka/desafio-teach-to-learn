@@ -6,7 +6,11 @@ class Link extends React.Component {
   }
   render() {
     return (
-      <a href={this.props.link} className="text text-hover" target="_blank">
+      <a
+        href={this.props.link}
+        className="text text-hover link"
+        target="_blank"
+      >
         {this.props.linkName}
       </a>
     );
