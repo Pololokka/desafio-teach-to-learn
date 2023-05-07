@@ -5,7 +5,7 @@ import "./index.css";
 
 import Home from "./Pages/Home";
 import Guide from "./Pages/Guide/Index.jsx";
-import ErrorPage from "./Components/Class/ErrorPage/Index.jsx";
+import ErrorPage from "./Pages/ErrorPage/Index.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 

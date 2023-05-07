@@ -1,11 +1,11 @@
 import React from "react";
 import "./Styles.css";
-import fundoError from "../../../assets/img/fundo-error.jpg";
+import fundoError from "../../assets/img/fundo-error.jpg";
 
 import { Link } from "react-router-dom";
-import { textError } from "../../../Data/text";
-import { inquisitionTexts } from "../../../Data/errorTexts";
-import TextSection from "../TextSection/Index";
+import { textError } from "../../Data/text";
+import { inquisitionTexts } from "../../Data/errorTexts";
+import TextSection from "../../Components/Class/TextSection/Index";
 
 const maxNumber = 70;
 
@@ -42,7 +42,7 @@ class ErrorPage extends React.Component {
               sectionTitle="Você está tentando acessar conteúdo não sancionado pela Inquisição e pelo Sagrado Imperador!"
               sectionText={textError}
             />
-            <p className="subtitle text-hover">
+            <p className="subtitle">
               {inquisitionTexts[Math.ceil(Math.random() * maxNumber)]}
             </p>
           </div>
