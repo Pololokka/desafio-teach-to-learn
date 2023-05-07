@@ -234,6 +234,7 @@ html {
 
 .btn__nav {
   background-color: transparent;
+  cursor: pointer;
 }
 
 .link {

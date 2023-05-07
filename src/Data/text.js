@@ -26,3 +26,10 @@ export const textPlay = [
   "Nesta seção você pode aprender mais sobre o jogo de Warhammer 40k, seguindo um curto e rápido guia básico de jogo.",
   "Clique no link abaixo para ter mais informações!",
 ];
+
+export const textPageGuide = [
+  "No vídeo acima, Luetin09(um grande youtuber da comunidade de Warhammer 40k), dá uma breve descrição do hobby, e então nos conta mais sobre algumas facções específicas do universo de 40k",
+  "As facções apresentadas no vídeo são resumidas, uma vez que Luetin somente nos conta sobre a idéia geral de uma facção, porém, cada facção tem diversas divisões internas, com suas próprias caracterísitcas, dogmas, cores, preferências, e etc.",
+  "Usando a Humanidade como exemplo, você possui três facções principais: Astartes, Inquisição, e Astra Militarum. Os Astartes são guerreiros geneticamente modificados, possuindo força e resistência aprimorada, além de terem orgãos adicionais e coisas do tipo. Os Astartes são divididos em Capítulos(Chapters), como os Space Wolves, os Blood Angles, os Ultramarines, e etc, cada um desses com seus próprios dogmas específicos(além dos dogmas já existentes dos Astartes), cores, preferências, e coisas do tipo. Em cima disso, cada um desses Capítulos possui 'sub-capítulos', com mais algumas mudanças. Então o jogo tem diversas opções de customização, para que você possa adequar exatamente ao seu gosto!",
+  "Além disso, você também pode criar o seu próprio Capítulo ou Sub-Capítulo, com seus próprios esquemas de cores, dogmas, história, e etc.",
+];

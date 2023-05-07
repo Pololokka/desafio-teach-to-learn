@@ -13,6 +13,8 @@ function Home() {
   const paint = useRef(null);
   const play = useRef(null);
 
+  document.title = "Introdução ao 40K";
+
   return (
     <>
       <header>
