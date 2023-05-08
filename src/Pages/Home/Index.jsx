@@ -66,10 +66,9 @@ function Home() {
           sectionTitle="Como Pintar"
           sectionText={textPaint}
         />
-        {/* <Link
-          link="https://www.youtube.com/watch?v=4KNkOPTa_po"
-          linkName="Pintando suas Minis"
-        /> */}
+        <Link className="text text-hover link" to="/pintar">
+          Introdução à Pintura
+        </Link>
 
         <TextSection
           scrollRef={play}

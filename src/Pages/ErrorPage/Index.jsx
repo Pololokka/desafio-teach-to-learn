@@ -4,7 +4,7 @@ import fundoError from "../../assets/img/fundo-error.jpg";
 
 import { Link } from "react-router-dom";
 import { textError } from "../../Data/text";
-import { inquisitionTexts } from "../../Data/errorTexts";
+import { inquisitionTexts, inquisitionTheme } from "../../Data/errorTexts";
 import TextSection from "../../Components/Class/TextSection/Index";
 
 const maxNumber = 70;
@@ -27,6 +27,12 @@ class ErrorPage extends React.Component {
               <li className="border-right">
                 <Link className="text text-hover link" to="/guia">
                   Guia Introdutório
+                </Link>
+              </li>
+
+              <li className="border-right">
+                <Link className="text text-hover link" to="/pintar">
+                  Como Pintar
                 </Link>
               </li>
             </ul>
