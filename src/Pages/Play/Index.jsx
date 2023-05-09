@@ -1,14 +1,14 @@
 import React from "react";
-import fundoPaint from "../../assets/img/fundo-paint.png";
+import fundoPlay from "../../assets/img/fundo-play.jpg";
 
-import { textPagePaint } from "../../Data/text";
+import { textPagePlay } from "../../Data/text";
 
 import { Link } from "react-router-dom";
 import TextSection from "../../Components/Class/TextSection/Index";
 
-class Paint extends React.Component {
+class Play extends React.Component {
   render() {
-    document.title = "Warhammer 40K - Como Pintar";
+    document.title = "Warhammer 40K - Jogando o Jogo";
 
     return (
       <>
@@ -30,8 +30,8 @@ class Paint extends React.Component {
               </li>
 
               <li>
-                <Link className="text text-hover link" to="/jogar">
-                  Jogando o Jogo
+                <Link className="text text-hover link" to="/pintar">
+                  Como Pintar
                 </Link>
               </li>
             </ul>
@@ -39,12 +39,12 @@ class Paint extends React.Component {
         </header>
 
         <main className="main__container">
-          <img src={fundoPaint} className="bg-img" />
+          <img src={fundoPlay} className="bg-img" />
 
           <iframe
             width="50%"
             height="420px"
-            src="https://www.youtube.com/embed/4KNkOPTa_po"
+            src="https://www.youtube.com/embed/7z5f0d1VO1Q"
             title="YouTube video player"
             frameBorder="10px"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -54,18 +54,18 @@ class Paint extends React.Component {
           <iframe
             width="50%"
             height="420px"
-            src="https://www.youtube.com/embed/hLRSCV6N1IU"
+            src="https://www.youtube.com/embed/taUqZCiijvU"
             title="YouTube video player"
-            frameBorder="10px"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
 
-          <TextSection sectionTitle="Sobre" sectionText={textPagePaint} />
+          <TextSection sectionTitle="Sobre" sectionText={textPagePlay} />
         </main>
       </>
     );
   }
 }
 
-export default Paint;
+export default Play;

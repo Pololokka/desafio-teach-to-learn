@@ -47,3 +47,11 @@ export const textPagePaint = [
   "No primeiro vídeo, Duncan ensina 3 métodos para pintar a power armor de seu Space Marine. Mesmo que você seja um iniciante, recomendamos que assista esse vídeo inteiro, a fim de ter idéias para seus próximos trabalhos, assim como conseguir traçar uma meta de pintura para você. Note que o vído fala sobre Space Marines, mas as técnicas ali presentes podem ser utilizadas em qualquer miniatura(até mesmo as que não são de Warhammer!)",
   "No segundo vídeo, Duncan ensina a pintar um Black Templar, que é um dos Capítulos dos Primaris Astartes. Nesse vídeo, a pintura é completa, indo para as armas, base, e outros detalhes(como a águia no peito do Marine). Este vídeo soma ao primeiro, pois ensina mais técnicas valiosas para deixar sua miniatura ainda mais completa e única.",
 ];
+
+export const textPagePlay = [
+  "Além de miniaturas(e livros, e quadrinhos, e video-games), Warhammer 40K também se trata de um complexo jogo de guerra!",
+  "Os dois vídeos acima ensinam a jogar, porém o primeiro vídeo dá instruções mais superficiais e rápidas, enquanto que o segundo vídeo explica mais profundamente as regras e nuances do jogo. Você escolhe qual dos dois vídeos vai assistir, o que importa é entender as regras e se divertir!",
+  "Como o segundo vídeo informa, existem vários livros extras para seu exército, explicando melhor as coisas específicas da facção que você escolher. Estes livros são bem importantes, e são vendidos separadamente, porém, é possível encontrar kits que possuem miniaturas e regras.",
+  "Nos vídeos, os apresentadores utilizam o kit Indomitus como base. Este é um ótimo kit para começar no hobby, pois eles vem com miniaturas mais fáceis de montar(sem necessidade do uso de cola), assim como já possuem as regras, réguas, dados, e tudo mais que um jogador pode precisar. Esse kit também vem com dois exércitos diferentes, nesse caso, Space Marines e Necrons, então é perfeito para dividir com um amigo!",
+  "Também é possível ver cenários nos vídeos. Cenários são opcionais, mas importantes no jogo de Warhammer 40K, pois eles podem alterar o jogo, fornecendo cobertura para as miniaturas, pontos de vantagem, e coisas do tipo. Você pode comprar peças de cenários, porém, você também pode utilizar o que estiver a sua disposição. A imaginação é seu limite!",
+];

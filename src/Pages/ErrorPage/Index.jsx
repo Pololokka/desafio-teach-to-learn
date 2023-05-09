@@ -11,6 +11,8 @@ const maxNumber = 70;
 
 class ErrorPage extends React.Component {
   render() {
+    document.title = "++ERRO++";
+
     return (
       <>
         <header>
@@ -33,6 +35,12 @@ class ErrorPage extends React.Component {
               <li className="border-right">
                 <Link className="text text-hover link" to="/pintar">
                   Como Pintar
+                </Link>
+              </li>
+
+              <li>
+                <Link className="text text-hover link" to="/jogar">
+                  Jogando o Jogo
                 </Link>
               </li>
             </ul>

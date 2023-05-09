@@ -75,10 +75,9 @@ function Home() {
           sectionTitle="Como Jogar"
           sectionText={textPlay}
         />
-        {/* <Link
-          link="https://www.youtube.com/watch?v=7z5f0d1VO1Q"
-          linkName="Jogando o Jogo"
-        /> */}
+        <Link className="text text-hover link" to="/jogar">
+          Jogando o Jogo
+        </Link>
       </main>
     </>
   );

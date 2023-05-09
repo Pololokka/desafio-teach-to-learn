@@ -3,13 +3,12 @@ import fundoGuide from "../../assets/img/fundo-guide.jpg";
 
 import { Link } from "react-router-dom";
 import { textPageGuide } from "../../Data/text";
-import Input from "../../Components/Class/Input/Index";
 import TextSection from "../../Components/Class/TextSection/Index";
-
-document.title = "Warhammer 40K - Guia Introdutório";
 
 class Guide extends React.Component {
   render() {
+    document.title = "Warhammer 40K - Guia Introdutório";
+
     return (
       <>
         <header>
@@ -24,11 +23,15 @@ class Guide extends React.Component {
               </li>
 
               <li className="border-right">
-                <Input value="Como Pintar" />
+                <Link className="text text-hover link" to="/pintar">
+                  Como Pintar
+                </Link>
               </li>
 
               <li>
-                <Input value="Como Jogar" />
+                <Link className="text text-hover link" to="/jogar">
+                  Jogando o Jogo
+                </Link>
               </li>
             </ul>
           </nav>
@@ -43,9 +46,9 @@ class Guide extends React.Component {
             height="420px"
             src="https://www.youtube.com/embed/M6M9-oFEKpk"
             title="YouTube video player"
-            frameborder="10px"
+            frameBorder="10px"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
 
           <TextSection sectionTitle="Sobre" sectionText={textPageGuide} />
