@@ -1,7 +1,13 @@
 import fundoMain from "../../assets/img/fundo-main.jpg";
 
 import { handleScroll } from "../../Func/elderScroll";
-import { textMain, textGuide, textPaint, textPlay } from "../../Data/text";
+import {
+  textMain,
+  textGuide,
+  textPaint,
+  textPlay,
+  textMod,
+} from "../../Data/text";
 import { useRef } from "react";
 
 import { Link } from "react-router-dom";
@@ -12,6 +18,7 @@ function Home() {
   const guide = useRef(null);
   const paint = useRef(null);
   const play = useRef(null);
+  const mod = useRef(null);
 
   document.title = "Introdução ao 40K";
 
@@ -38,8 +45,16 @@ function Home() {
               />
             </li>
 
-            <li>
+            <li className="border-right">
               <Input value="Como Jogar" func={handleScroll} scrollRef={play} />
+            </li>
+
+            <li>
+              <Input
+                value="Modificando Miniaturas"
+                func={handleScroll}
+                scrollRef={mod}
+              />
             </li>
           </ul>
         </nav>
@@ -77,6 +92,15 @@ function Home() {
         />
         <Link className="text text-hover link" to="/jogar">
           Jogando o Jogo
+        </Link>
+
+        <TextSection
+          scrollRef={mod}
+          sectionTitle="Modificando Miniaturas"
+          sectionText={textMod}
+        />
+        <Link className="text text-hover link" to="/modificar">
+          Modificando suas Miniaturas
         </Link>
       </main>
     </>

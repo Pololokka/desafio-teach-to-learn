@@ -29,9 +29,15 @@ class Play extends React.Component {
                 </Link>
               </li>
 
-              <li>
+              <li className="border-right">
                 <Link className="text text-hover link" to="/pintar">
                   Como Pintar
+                </Link>
+              </li>
+
+              <li>
+                <Link className="text text-hover link" to="/modificar">
+                  Modificando suas Miniaturas
                 </Link>
               </li>
             </ul>
@@ -40,6 +46,7 @@ class Play extends React.Component {
 
         <main className="main__container">
           <img src={fundoPlay} className="bg-img" />
+          <h1 className="title">JOGANDO O JOGO</h1>
 
           <iframe
             width="50%"

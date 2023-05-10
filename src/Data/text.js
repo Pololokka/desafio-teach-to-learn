@@ -27,6 +27,12 @@ export const textPlay = [
   "Clique no link abaixo para ter mais informações!",
 ];
 
+export const textMod = [
+  "Você não precisa jogar com exatamente o que vem na caixa! A comunidade de Warhammer aceita(e incentiva!) a sua critividade!",
+  "Nesta seção você vai aprender sobre como tornar suas miniaturas ainda mais únicas, através do kitbashing(juntar partes de outros kits), ou esculpindo por cima da sua mini.",
+  "Clique no link abaixo para ter mais informações!",
+];
+
 export const textError = [
   "O conteúdo que você está tentando acesar está permanentemente indisponível, por apresentar tópicos relacionados a: XENOS.",
   "A Sagrada Ordo Herecticus entrará em contato com você em breve. Agradecemos sua compreensão e não resistência, antigo cidadão!",
@@ -57,9 +63,8 @@ export const textPagePlay = [
 ];
 
 export const textPageMod = [
-  "Além de miniaturas(e livros, e quadrinhos, e video-games), Warhammer 40K também se trata de um complexo jogo de guerra!",
-  "Os dois vídeos acima ensinam a jogar, porém o primeiro vídeo dá instruções mais superficiais e rápidas, enquanto que o segundo vídeo explica mais profundamente as regras e nuances do jogo. Você escolhe qual dos dois vídeos vai assistir, o que importa é entender as regras e se divertir!",
-  "Como o segundo vídeo informa, existem vários livros extras para seu exército, explicando melhor as coisas específicas da facção que você escolher. Estes livros são bem importantes, e são vendidos separadamente, porém, é possível encontrar kits que possuem miniaturas e regras.",
-  "Nos vídeos, os apresentadores utilizam o kit Indomitus como base. Este é um ótimo kit para começar no hobby, pois eles vem com miniaturas mais fáceis de montar(sem necessidade do uso de cola), assim como já possuem as regras, réguas, dados, e tudo mais que um jogador pode precisar. Esse kit também vem com dois exércitos diferentes, nesse caso, Space Marines e Necrons, então é perfeito para dividir com um amigo!",
-  "Também é possível ver cenários nos vídeos. Cenários são opcionais, mas importantes no jogo de Warhammer 40K, pois eles podem alterar o jogo, fornecendo cobertura para as miniaturas, pontos de vantagem, e coisas do tipo. Você pode comprar peças de cenários, porém, você também pode utilizar o que estiver a sua disposição. A imaginação é seu limite!",
+  "Além da pintura, existem mais coisas que você pode fazer com suas miniaturas. Nos vídeos acima, é abordado o tema de custimzação de suas minis, tanto através do kitbashing quando através de esculpir novas partes.",
+  "Os dois primeiros vídeos falam do kitbashing, uma técnica que consiste de pagar peças de vários kits diferentes, e juntar na mesma miniatura. Muitas vezes você vai precisar fazer mudanças bem sérias na sua mini, serrando-a e completando pedaços com durepox ou massa similar.",
+  "Os dois outros vídeos abordam o tema de escultura, onde o primeiro destes apresenta Duncan Rhodes modificando uma mini de Warhammer 40K, e o segundo apresenta uma escultura de pelo animal em uma miniatura de outra origem. Usualmente, utilizamos durepox ou similar para este tipo de trabalho, uma vez que esta massa cura sozinha, sem precisar de forno ou algo do tipo(o que poderia danificar sua mini).",
+  "Como em ambos os casos as mudanças podem fazer com que você perca a sua miniatura, recomendamos que entre nessa parte do hobby somente quando já for mais experiente(ou quando já for mais experiente em esculpir).",
 ];

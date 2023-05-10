@@ -262,3 +262,8 @@ html {
   mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
   user-select: none;
 }
+
+iframe {
+  width: 50vw;
+  height: 60vh;
+}

@@ -29,9 +29,15 @@ class Paint extends React.Component {
                 </Link>
               </li>
 
-              <li>
+              <li className="border-right">
                 <Link className="text text-hover link" to="/jogar">
                   Jogando o Jogo
+                </Link>
+              </li>
+
+              <li>
+                <Link className="text text-hover link" to="/modificar">
+                  Modificando suas Miniaturas
                 </Link>
               </li>
             </ul>
@@ -40,6 +46,7 @@ class Paint extends React.Component {
 
         <main className="main__container">
           <img src={fundoPaint} className="bg-img" />
+          <h1 className="title">COMO PINTAR</h1>
 
           <iframe
             width="50%"

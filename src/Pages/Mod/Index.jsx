@@ -1,5 +1,5 @@
 import React from "react";
-import fundoMod from "../../assets/img/fundo-play.jpg";
+import fundoMod from "../../assets/img/fundo-mod.jpg";
 
 import { textPageMod } from "../../Data/text";
 
@@ -46,11 +46,12 @@ class Mod extends React.Component {
 
         <main className="main__container">
           <img src={fundoMod} className="bg-img" />
+          <h1 className="title">MODIFICANDO SUAS MINIATURAS</h1>
 
           <iframe
             width="50%"
             height="420px"
-            src="https://www.youtube.com/embed/7z5f0d1VO1Q"
+            src="https://www.youtube.com/embed/cPGREvAnA6w"
             title="YouTube video player"
             frameBorder="10px"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -60,7 +61,27 @@ class Mod extends React.Component {
           <iframe
             width="50%"
             height="420px"
-            src="https://www.youtube.com/embed/taUqZCiijvU"
+            src="https://www.youtube.com/embed/aBk1qA02SKY"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+
+          <iframe
+            width="50%"
+            height="420px"
+            src="https://www.youtube.com/embed/LrgdapjKOCg"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+
+          <iframe
+            width="50%"
+            height="420px"
+            src="https://www.youtube.com/embed/grc4WD51Whg"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

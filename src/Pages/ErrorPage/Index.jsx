@@ -38,9 +38,15 @@ class ErrorPage extends React.Component {
                 </Link>
               </li>
 
-              <li>
+              <li className="border-right">
                 <Link className="text text-hover link" to="/jogar">
                   Jogando o Jogo
+                </Link>
+              </li>
+
+              <li>
+                <Link className="text text-hover link" to="/modificar">
+                  Modificando suas Miniaturas
                 </Link>
               </li>
             </ul>
