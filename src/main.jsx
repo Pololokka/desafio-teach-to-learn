@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Index.jsx";
 import Guide from "./Pages/Guide/Index.jsx";
 import Paint from "./Pages/Paint/Index.jsx";
 import Play from "./Pages/Play/Index.jsx";
