@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Guide from "./Pages/Guide/Index.jsx";
 import Paint from "./Pages/Paint/Index.jsx";
 import Play from "./Pages/Play/Index.jsx";
+import Mod from "./Pages/Mod/Index.jsx";
 import ErrorPage from "./Pages/ErrorPage/Index.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/jogar",
         element: <Play />,
+      },
+      {
+        path: "/modificar",
+        element: <Mod />,
       },
     ],
   },
