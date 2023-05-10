@@ -1,8 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![technology - React](https://img.shields.io/badge/React-orange) ![technology - JS](https://img.shields.io/badge/JavaScript-yellow)
 
-# Link Tree
+# Teach do Learn
 
-link tree
+Página que fala sobre um tema, e possui links para outras páginas, ensinando mais a fundo sobre pontos específicos relacionados ao tema.
 
 ## Tecnologias
 
@@ -10,12 +10,35 @@ link tree
 - CSS
 - JavaScript
 - React
+- react-router-dom
 
 ## Escopo do projeto
 
 ### Home
 
-Página onde o usuário pode adicionar seus links
+Página onde o usuário visualiza as informações gerais sobre Warhammer 40k, e pode acessar outros tópicos. Esta página possui uma nav que direciona para os tópicos.
+
+Todas as outras páginas(menos a de Erro) possuem ao menos um vídeo, e um texto descritivo, além de uma nav que direciona para outras páginas.
+
+### Guia
+
+Página que serve como uma introdução ao hobby.
+
+### Jogar
+
+Página que ensina o usuário a jogar o jogo.
+
+### Pintar
+
+Página que fala mais sobre a pintura das miniaturas, tanto a nível básico quanto a nível avançado.
+
+### Modificar
+
+Página que fala sobre como modificar suas miniaturas, tornando-as mais únicas.
+
+### Erro
+
+Página que é apresentada quando um usuário tenta acessar uma rota inexistente. Esta página conta com uma mensagem e uma frase que é escolhida aleatoriamente dentro de 70 opções possíveis.
 
 ## Sobre
 
